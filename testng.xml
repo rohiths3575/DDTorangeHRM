@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Functional test suite" verbose="1" >
+<parameter name = "browser" value = "edge"/>
+<listeners>
+         <listener class-name="Scernario1.listeners"></listener>
+</listeners>
+  <test name="sanity">
+    <classes>
+       <class name="Scernario1.loginpage"/>
+      
+    </classes>
+  </test>
+
+  
+</suite> 
